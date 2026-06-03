@@ -226,7 +226,6 @@ packages = [
     'intergrations.chatgpt-on-wechat.plugins',
     'mcp.server',
     'rag',
-    'sdk.python.ragflow_sdk',
 ]
 
 [tool.ruff]
@@ -242,7 +241,7 @@ pythonpath = [
     "."
 ]
 
-testpaths = ["test"]
+testpaths = []
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
